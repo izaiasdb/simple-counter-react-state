@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Counter from './hooksState/Counter15';
+import Counter from './classBasedState/Counter07-08';
 
 import './styles.scss';
 

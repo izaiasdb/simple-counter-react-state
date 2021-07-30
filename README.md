@@ -1,4 +1,36 @@
-# From Component State to Hooks
+# Izaias
+Curso da popstand
+https://frontendmasters.com/courses/pure-react-state/
+npm install --force
+
+Todos os reps do curso
+https://github.com/stevekinney/react-state-management
+
+git clone https://github.com/stevekinney/grudges-react-state
+git checkout exercise-document-title
+git checkout exercise-use-effect
+git checkout example-use-local-storage
+    
+git checkout exercise-grant-forgiveness
+git checkout exercise-new-grudge-context
+git checkout asynchronous-actions
+git checkout example-thunk
+git clone grudges-react-state 
+git checkout implement-use-reducer
+git checkout exercise-redo
+git clone https://github.com/stevekinney/user-signup-react-state.git
+
+Stopped: setState & Function
+
+# if this error apear 
+https://stackoverflow.com/questions/37324519/node-sass-does-not-yet-support-your-current-environment-linux-64-bit-with-false
+Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (83)
+
+npm audit fix (Try this first )
+npm uninstall --save-dev node-sass
+npm install --save-dev node-sass
+
+# From Component State to Hooks - 01
 
 We're going to start with a [super simple counter](https://github.com/stevekinney/simple-counter).
 
@@ -23,7 +55,7 @@ class Counter extends Component {
 
 Let's get it wired up as a fun warmup exercise.
 
-## Getting the Basic Component Wired Up
+## Getting the Basic Component Wired Up - 02
 
 We'll start with a constructor method that sets the component state.
 
@@ -96,7 +128,7 @@ constructor(props) {
 
 ## Component State Pop Quiz
 
-### Asyncronous Updates and Queuing
+### Asyncronous Updates and Queuing - 03
 
 Okay, let's say we refactored `increment()` as follows:
 
@@ -115,7 +147,7 @@ Two questions:
 1. What will be logged to the console?
 2. What will the new value be?
 
-### Using a Function as an Argument
+### Using a Function as an Argument - 04
 
 `this.setState` also takes a function. This means we could refactor `increment()` as follows.
 
