@@ -3,7 +3,7 @@ Curso da popstand
 https://frontendmasters.com/courses/pure-react-state/
 npm install --force
 
-Todos os reps do curso
+All reps from this course
 https://github.com/stevekinney/react-state-management
 
 git clone https://github.com/stevekinney/grudges-react-state
@@ -19,8 +19,6 @@ git clone grudges-react-state
 git checkout implement-use-reducer
 git checkout exercise-redo
 git clone https://github.com/stevekinney/user-signup-react-state.git
-
-Stopped: setState & Function
 
 # if this error apear 
 https://stackoverflow.com/questions/37324519/node-sass-does-not-yet-support-your-current-environment-linux-64-bit-with-false
