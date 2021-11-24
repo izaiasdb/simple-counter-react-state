@@ -1,7 +1,12 @@
 # Izaias
 Curso da popstand
 https://frontendmasters.com/courses/pure-react-state/
+nvm use 14
 npm install --force
+npm start
+powerpoints
+https://speakerdeck.com/stevekinney/
+https://speakerdeck.com/stevekinney/react-state
 
 All reps from this course
 https://github.com/stevekinney/react-state-management

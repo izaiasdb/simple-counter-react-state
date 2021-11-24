@@ -36,7 +36,7 @@ const Counter = ({ max, step }) => {
 
   return (
     <main className="Counter">
-      <p>Aula 12</p>
+      <p>useEffect & Solution</p>
       <p className="count">{count}</p>
       <section className="controls">
         <button onClick={increment}>Increment</button>

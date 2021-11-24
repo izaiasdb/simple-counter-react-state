@@ -85,6 +85,7 @@ class Counter extends Component {
 
     return (
       <main className="Counter">
+        <p>SetState & Helper Funtion</p>
         <p className="count">{count}</p>
         <section className="controls">
         <button onClick={this.increment}>Increment</button>

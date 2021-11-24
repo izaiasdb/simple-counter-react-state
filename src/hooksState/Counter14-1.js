@@ -48,7 +48,8 @@ class Counter extends Component {
 
     return (
       <main className="Counter">
-        <p className="count">{count}</p>
+        <p>Persisting state & useRef-p1</p>
+        <p className="count">{count}</p>        
         <section className="controls">
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>

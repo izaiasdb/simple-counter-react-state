@@ -26,7 +26,7 @@ const Counter = ({ max, step }) => {
 
   return (
     <main className="Counter">
-      <p>Aula 14</p>
+      <p>Persisting state & useRef-p2</p>
       <p>{message}</p>
       <p className="count">{count}</p>
       <section className="controls">
